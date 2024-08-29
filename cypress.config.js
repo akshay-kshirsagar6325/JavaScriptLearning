@@ -5,6 +5,9 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
+
     supportFile: false, // Path to your support file
+    specPattern: "e2e/**/*.cy.js",
+
   },
 });
