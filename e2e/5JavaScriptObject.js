@@ -1,7 +1,6 @@
 
 //person is a object which contains the below property
 //we don't need to use let/var/constant while creating a variables in classes
-//here we are creating the objects
 
 
 let person=
@@ -19,7 +18,8 @@ console.log(person.age) //50
 
 //adding a new property to the existing object
 person["height"]=5.5;
-person.height=5.5;
+//person.height=5.5;                another way
+console.log(person.height);
 
 //update existing property
 person["weight"]=70;

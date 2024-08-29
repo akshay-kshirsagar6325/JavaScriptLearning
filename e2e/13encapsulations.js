@@ -6,7 +6,7 @@ class student
     constructor()
     {
         let name,marks;         //we are going to work on this variables using the below methods
-    }                           //we created constructor to initiate/invoke the variables/methods directly at the time of object creation
+    }                           //we created a constructor to initiate/invoke the variables/methods directly at the time of object creation
 
     //Functions/methods
     getName()

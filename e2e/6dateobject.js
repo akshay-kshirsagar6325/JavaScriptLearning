@@ -1,6 +1,6 @@
 let d=new Date();       //we can access all the methods from Date object using d
 
-//console.log(d);
+//console.log(d);       //will print the current date
 
 console.log(d.getDate());   //1-31
 console.log(d.getMonth());  //0-11
