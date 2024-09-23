@@ -6,7 +6,7 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
 
-    supportFile: false, // Path to your support file
+    supportFile: "/home/akshay/Desktop/cypress/support/commands.js", // Path to your support file
     specPattern: "e2e/**/*.cy.js",
 
   },
